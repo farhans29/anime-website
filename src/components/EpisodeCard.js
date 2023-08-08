@@ -19,7 +19,6 @@ function EpisodeCard({episode}) {
 		<article className="anime-card">
 			<a 
 				href={`/player/${episode.id}`} 
-				target="_blank" 
 				rel="noreferrer">
 				<figure>
 					<img 

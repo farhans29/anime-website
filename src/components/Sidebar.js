@@ -9,8 +9,7 @@ function Sidebar({ topAnime }) {
 				{topAnime.map(anime => (
 					<div className='element'>
 						<a 
-						href={anime.url} 
-						target="_blank"
+						href={ `episode/${anime.id}` } 
 						key={anime.id} 
 						rel="noreferrer">
 							{ anime.title }
